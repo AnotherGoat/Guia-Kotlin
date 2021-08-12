@@ -1,7 +1,7 @@
 # Comentarios
 
 Los comentarios son declaraciones explicativas utilizadas para describir el código fuente.
-Un comentario de una sola línea comienza con //.
+Un comentario de una sola línea comienza con `//`.
 
 ```kotlin
 // Mi primer programa escrito en Kotlin

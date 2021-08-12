@@ -1,6 +1,6 @@
 # Variables mutables
 
-Las variables se utilizan para almacenar datos, con el fin de poder trabajar con ellos, reutilizarlos y modificarlos como se desee.
+Las variables se utilizan para almacenar datos, con el fin de poder trabajar con ellos más tarde, reutilizarlos y modificarlos como se desee.
 
 Cada variable tiene un tipo de dato, que define el tipo de información que contiene.
 A continuación se muestran algunos ejemplos de variables, declaradas con la palabra clave var.
@@ -14,7 +14,7 @@ var esPosible = true
 
 # Reasignación de valores
 
-Las variables mutables pueden ser utilizadas dentro de funciones y su valor se puede reasignar durante la ejecución del programa.
+Las variables mutables pueden ser pasadas como argumentos a funciones y su valor se puede reasignar durante la ejecución del programa.
 
 Al momento de reasignar el valor de una variable no es necesario volver a utilizar la palabra var, ya que esta sólo se utiliza al momento de declararla.
 
@@ -34,3 +34,6 @@ El código mostrado arriba muestra la siguiente salida:
 1000
 9999
 ```
+
+Es importante recordar que toda variable tiene un nombre que actúa como identificador.
+
