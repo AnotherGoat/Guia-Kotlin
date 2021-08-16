@@ -8,23 +8,26 @@ Los ejemplos de código e ideas generales fueron obtenidas de las siguientes fue
 - [W3Schools](https://www.w3schools.com/kotlin/)
 - [Los tutoriales de Programiz](https://www.programiz.com/kotlin-programming)
 - [El curso de SoloLearn](https://www.sololearn.com/learning/1160)
+- [Un curso del canal de YouTube de FreeCodeCamp](https://www.youtube.com/watch?v=F9UC9DY-vIU)
 
 En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 
 ## Variables
+
 - [Hola mundo](content/hola-mundo.md)
 - [Mostrar texto en pantalla](content/mostrar-texto.md)
-- [Variables mutables](content/variables-mutables.md)
-- [Variables inmutables](content/variables-inmutables.md)
+- [Variables](content/variables.md)
 - [Declaración y asignación](content/declaracion-y-asignacion.md)
-- [Inferencia de tipos](content/inferencia-de-tipos.md)
 - [Comentarios](content/comentarios.md)
+- [Inferencia de tipos](content/inferencia-de-tipos.md)
 
 ## Números
 
 - [Tipos de datos numéricos](content/tipos-numericos.md)
 
-## Cadenas de texto
+## Cadenas de caracteres
+
+- [Cadenas de caracteres](content/string.md)
 
 ## Booleanos
 
@@ -32,28 +35,44 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 
 ## Bucles
 
+- Bucle while
+
 ## Funciones
 
+- Funciones
+- [Ámbito](content/ambito.md)
+
+## Seguridad contra nulos
+
+- [Valor nulo](content/nulo.md)
+- [Retorno nulo](content/retorno-nulo.md)
+
 ## Estructuras de datos
-
-## Tiempo
-
-## Números aleatorios
 
 ## Clases
 
 ## Herencia
 
+- Encapsulamiento
+
 ## Excepciones
 
 ## Manejo de archivos
 
+## Tiempo
+
+## Números aleatorios
+
 ## Paquetes
 
+## Interfaces
+
+## Pruebas unitarias
+
 ## Documentación
+
+## Genéricos
 
 ## Expresiones regulares
 
 ## Programación funcional
-
-## Pruebas unitarias

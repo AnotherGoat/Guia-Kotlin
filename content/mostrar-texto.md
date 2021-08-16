@@ -13,7 +13,7 @@ fun main() {
 
 La salida muestra cada mensaje en una línea separada:
 
-```
+```text
 Hola
 mundo
 123
@@ -31,13 +31,13 @@ fun main() {
 
 A diferencia del caso anterior, la salida queda toda en una misma línea.
 
-```
+```text
 Holamundo123
 ```
 
-# Punto y coma
+## Punto y coma
 
-En Kotlin no es necesario finalizar cada línea de código con un punto y coma `;`, al contrario de otros lenguajes de programación como Java, C++ o C#.
+En Kotlin no es necesario finalizar cada línea de código con un punto y coma `;`, al contrario de otros lenguajes de programación como Java, C++ o C#. 
 Ambos ejemplos mostrados a continuación son válidos y equivalentes.
 
 ```kotlin

@@ -1,6 +1,9 @@
 # Comentarios
 
 Los comentarios son declaraciones explicativas utilizadas para describir el código fuente.
+
+## Comentarios de una línea
+
 Un comentario de una sola línea comienza con `//`.
 
 ```kotlin
@@ -21,14 +24,14 @@ Todo el texto que va dentro de un comentario es ignorado por el compilador, incl
 // println("Buenos días")
 ```
 
-Los comentarios no son reconocidos si se escriben dentro de un String.
+Los comentarios no son reconocidos si se escriben dentro de un `String`.
 
 ```kotlin
 // Este es un comentario
 println("// Este no es un comentario")
 ```
 
-# Comentarios multilínea
+## Comentarios multilínea
 
 Si se necesita un comentario más largo que abarque múltiples líneas, se debe escribir de la siguiente forma:
 
