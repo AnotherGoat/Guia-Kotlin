@@ -93,7 +93,7 @@ fun main() {
 
 ## Métodos
 
-Si se utiliza una función, se infiere el tipo como el tipo de dato que retorna dicha función.
+Si se utiliza un método o función, se infiere el tipo como el tipo de dato que retorna dicha función.
 
 ```kotlin
 println(arrayOf(1, 2, 3) is Array<Int>)

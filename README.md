@@ -5,6 +5,7 @@
 Los ejemplos de código e ideas generales fueron obtenidas de las siguientes fuentes:
 
 - [La documentación oficial](https://kotlinlang.org/docs/home.html)
+- [El curso de Jetbrains Academy](https://hyperskill.org/tracks/18)
 - [W3Schools](https://www.w3schools.com/kotlin/)
 - [Los tutoriales de Programiz](https://www.programiz.com/kotlin-programming)
 - [El curso de SoloLearn](https://www.sololearn.com/learning/1160)
@@ -23,13 +24,19 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 
 ## Números
 
-- [Tipos de datos numéricos](content/tipos-numericos.md)
+- [Números enteros](content/numeros-enteros.md)
+- [Números reales](content/numeros-reales.md)
+- [Extremos numéricos](content/extremos-numericos.md)
+- [Números sin signo](content/numeros-sin-signo.md)
 
 ## Cadenas de caracteres
 
+- [Caracteres](content/caracteres.md)
 - [Cadenas de caracteres](content/string.md)
 
 ## Booleanos
+
+- [Booleanos](content/booleanos.md)
 
 ## Entrada y salida
 
