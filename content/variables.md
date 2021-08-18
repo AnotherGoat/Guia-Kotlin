@@ -15,6 +15,9 @@ var x = 'x'
 var esPosible = true
 ```
 
+El contenido a la derecha del nombre de la variable se conoce como literal.
+Cada tipo de variable tiene su propia sintaxis de literal, la cual es utilizada por Kotlin para inferir su tipo.
+
 ## Reasignación de valores
 
 Las variables mutables pueden ser pasadas como argumentos a funciones y su valor se puede reasignar durante la ejecución del programa.
@@ -33,7 +36,7 @@ fun main() {
 
 El código mostrado arriba muestra la siguiente salida:
 
-```
+```text
 1000
 9999
 ```

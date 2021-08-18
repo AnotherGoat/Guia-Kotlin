@@ -20,6 +20,9 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Variables](content/variables.md)
 - [Declaración y asignación](content/declaracion-y-asignacion.md)
 - [Comentarios](content/comentarios.md)
+- [Convenciones de código](content/convenciones-de-codigo.md)
+- [Nombres de variables](content/nombres-de-variables.md)
+- [Palabras reservadas](content/palabras-clave.md)
 - [Inferencia de tipos](content/inferencia-de-tipos.md)
 
 ## Números
@@ -28,21 +31,33 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Números reales](content/numeros-reales.md)
 - [Extremos numéricos](content/extremos-numericos.md)
 - [Números sin signo](content/numeros-sin-signo.md)
+- Operaciones con números
 
 ## Cadenas de caracteres
 
 - [Caracteres](content/caracteres.md)
 - [Cadenas de caracteres](content/string.md)
+- Secuencias de escape
+- Cadenas puras
 
 ## Booleanos
 
 - [Booleanos](content/booleanos.md)
+- Comparaciones
+- Combinación de comparaciones
+- Declaraciones if
 
 ## Entrada y salida
+
+- Salida simple
+
+## Arreglos
 
 ## Bucles
 
 - Bucle while
+- Bucle do while
+- Bucle for
 
 ## Funciones
 
@@ -54,32 +69,58 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Valor nulo](content/nulo.md)
 - [Retorno nulo](content/retorno-nulo.md)
 
-## Estructuras de datos
+## Conjuntos
+
+## Mapas
 
 ## Clases
 
+- Paradigma orientado a objetos
+
 ## Herencia
 
+- Herencia
 - Encapsulamiento
+
+## Paquetes
 
 ## Excepciones
 
 ## Manejo de archivos
 
+- Try with resources
+
 ## Tiempo
 
 ## Números aleatorios
 
-## Paquetes
+## Matemáticas
 
 ## Interfaces
 
 ## Pruebas unitarias
 
+- Pruebas simples
+- Pruebas parametrizadas
+
 ## Documentación
+
+## Interfaz gráfica
+
+## Programación funcional
+
+- Paradigma de programación funcional
 
 ## Genéricos
 
 ## Expresiones regulares
 
-## Programación funcional
+## Patrones de diseño
+
+## Algoritmos
+
+## Conexión con bases de datos
+
+## Spring
+
+## Android

@@ -1,6 +1,7 @@
 # Cadenas de caracteres
 
 Las cadenas de caracteres son una secuencia ordenada e inmutable de caracteres y son uno de los tipos de datos más importantes en la programación.
+Se utilizan para representar texto de cualquier tipo.
 
 ## El tipo String
 
@@ -8,7 +9,9 @@ El tipo de dato de las cadenas de caracteres es su nombre en inglés, `String`.
 Estas se definen como cualquier texto escrito entre comillas dobles.
 
 ```kotlin
-val apellido = "Martínez"
+val mascota = "Firulais"
+val objetivo = "Quiero aprender Kotlin"
+val correo = "usuario@mail.com"
 ```
 
 ## Conversión a String
