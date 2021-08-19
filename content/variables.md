@@ -15,7 +15,10 @@ var x = 'x'
 var esPosible = true
 ```
 
-El contenido a la derecha del nombre de la variable se conoce como literal.
+El contenido a la izquierda del operador de asignación `=` se conoce como identificador o token en inglés.
+El identificador es el nombre que puede ser usado para referirse al valor más adelante en el programa.
+
+El contenido a la derecha del operador se conoce como literal.
 Cada tipo de variable tiene su propia sintaxis de literal, la cual es utilizada por Kotlin para inferir su tipo.
 
 ## Reasignación de valores

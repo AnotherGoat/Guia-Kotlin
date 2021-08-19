@@ -23,7 +23,7 @@ fun main() {
 }
 ```
 
-El resultado de las operaciones anteriores se muestra como un `Boolean`.
+Las operaciones anteriores son evaluadas y el resultado obtenido se muestra como un `Boolean`.
 
 ```kotlin
 true

@@ -46,6 +46,7 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - Comparaciones
 - Combinación de comparaciones
 - Declaraciones if
+- Expresiones if
 
 ## Entrada y salida
 
