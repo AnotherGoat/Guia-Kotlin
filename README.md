@@ -39,14 +39,17 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Cadenas de caracteres](content/string.md)
 - Secuencias de escape
 - Cadenas puras
+- Operaciones con cadenas
 
 ## Booleanos
 
 - [Booleanos](content/booleanos.md)
-- Comparaciones
-- Combinación de comparaciones
-- Declaraciones if
-- Expresiones if
+- [Operadores de comparación](content/operadores-de-comparacion.md)
+- [Operadores lógicos](content/operadores-logicos.md)
+- [Declaraciones if](content/declaracion-if.md)
+- [Indentación](content/indentacion.md)
+- [Operador ternario](content/operador-ternario.md)
+- [Expresiones if](content/expresion-if.md)
 
 ## Entrada y salida
 
