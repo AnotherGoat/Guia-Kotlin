@@ -10,7 +10,7 @@ A continuación se muestran algunos ejemplos de variables, declaradas con la pal
 
 ```kotlin
 var num = 100
-var saludo = "Hola"
+var usuario = "Juan"
 var x = 'x'
 var esPosible = true
 ```
@@ -20,6 +20,11 @@ El identificador es el nombre que puede ser usado para referirse al valor más a
 
 El contenido a la derecha del operador se conoce como literal.
 Cada tipo de variable tiene su propia sintaxis de literal, la cual es utilizada por Kotlin para inferir su tipo.
+También es posible especificar el tipo explícitamente, con el fin de hacer que el código sea más claro.
+
+```kotlin
+var idioma: String = "Alemán"
+```
 
 ## Reasignación de valores
 

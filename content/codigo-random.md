@@ -134,3 +134,43 @@ fun main() {
     println(num1 in num2..num3)
 }
 ```
+
+```kotlin
+fun joinOptions(options: Collection<String>) =
+        options.joinToString(prefix="[", postfix="]")
+```
+
+```kotlin
+fun foo(name: String, number: Int = 42, toUpperCase: Boolean = false) =
+        (if (toUpperCase) name.toUpperCase() else name) + number
+
+fun useFoo() = listOf(
+        foo("a"),
+        foo("b", number = 1),
+        foo("c", toUpperCase = true),
+        foo(name = "d", number = 2, toUpperCase = true)
+)
+```
+
+```kotlin
+const val question = "life, the universe, and everything"
+const val answer = 42
+
+val tripleQuotedString = """
+    #question = "$question"
+    #answer = $answer""".trimMargin("#")
+
+fun main() {
+    println(tripleQuotedString)
+}
+```
+
+```kotlin
+fun getPattern() = """\d{2}\.\d{2}\.\d{4}"""
+```
+
+```kotlin
+val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
+
+fun getPattern(): String = """\d{2} ${month} \d{4}"""
+```

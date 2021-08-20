@@ -20,10 +20,10 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Variables](content/variables.md)
 - [Declaración y asignación](content/declaracion-y-asignacion.md)
 - [Comentarios](content/comentarios.md)
-- [Convenciones de código](content/convenciones-de-codigo.md)
 - [Nombres de variables](content/nombres-de-variables.md)
 - [Palabras reservadas](content/palabras-clave.md)
-- [Inferencia de tipos](content/inferencia-de-tipos.md)
+- [Convenciones de código](content/convenciones-de-codigo.md)
+- [Conversión de tipos de datos](content/conversion-de-tipos.md)
 
 ## Números
 
@@ -31,17 +31,22 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Números reales](content/numeros-reales.md)
 - [Extremos numéricos](content/extremos-numericos.md)
 - [Números sin signo](content/numeros-sin-signo.md)
-- Operaciones con números
+- [Operaciones aritméticas](content/operaciones-aritmeticas.md)
 
 ## Cadenas de caracteres
 
 - [Caracteres](content/caracteres.md)
 - [Cadenas de caracteres](content/string.md)
-- Secuencias de escape
-- Cadenas puras
-- Operaciones con cadenas
+- [Secuencias de escape](content/secuencias-de-escape.md)
+- [Caracteres Unicode](content/caracteres-unicode.md)
+- [Cadenas puras](content/cadenas-puras.md)
+- [Operaciones con cadenas](content/operaciones-con-cadenas.md)
+- [Plantillas de cadenas](content/plantillas-de-cadenas.md)
+- [Formateo de cadenas](content/formateo-de-cadenas.md)
+- [Subcadenas](content/subcadenas.md)
+- [Funciones de cadenas](content/funciones-de-cadenas.md)
 
-## Booleanos
+## Booleanos y lógica
 
 - [Booleanos](content/booleanos.md)
 - [Operadores de comparación](content/operadores-de-comparacion.md)
@@ -50,23 +55,36 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Indentación](content/indentacion.md)
 - [Operador ternario](content/operador-ternario.md)
 - [Expresiones if](content/expresion-if.md)
+- [Declaraciones when](content/declaracion-when.md)
+- [Expresiones when](content/expresion-when.md)
 
 ## Entrada y salida
 
-- Salida simple
+- [Salida por línea de comandos](content/salida.md)
+- [Entrada por línea de comandos](content/entrada.md)
 
-## Arreglos
+## Arreglos y listas
+
+- [Creación de arreglos](content/creacion-de-arreglos.md)
+- [Creación de listas](content/creacion-de-listas.md)
 
 ## Bucles
 
-- Bucle while
-- Bucle do while
-- Bucle for
+- [Bucle while](content/bucle-while.md)
+- [Bucle do-while](content/bucle-do-while.md)
+- [Bucle for](content/bucle-for.md)
+- [Declaración break](content/break.md)
+- [Declaración continue](content/continue.md)
 
 ## Funciones
 
-- Funciones
+- [Reutilización de código](content/reutilizacion-de-codigo.md)
+- [Funciones](content/funciones.md)
 - [Ámbito](content/ambito.md)
+- [Parámetros y argumentos](content/parametros-y-argumentos.md)
+- [Sobrecarga de funciones](content/sobrecarga-de-funciones.md)
+- [Sobrecarga de operadores](content/sobrecarga-de-operadores.md)
+- [Funciones de extensión](content/funciones-de-extension.md)
 
 ## Seguridad contra nulos
 
@@ -92,13 +110,15 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 
 ## Manejo de archivos
 
-- Try with resources
+- [Try with resources](content/try-with-resources.md)
 
 ## Tiempo
 
 ## Números aleatorios
 
 ## Matemáticas
+
+- []
 
 ## Interfaces
 
@@ -109,11 +129,15 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 
 ## Documentación
 
+- [Documentación](content/documentacion.md)
+- [Javadoc][content/javadoc.md]
+
 ## Interfaz gráfica
 
 ## Programación funcional
 
 - Paradigma de programación funcional
+- [Funciones puras](content/funciones-puras.md)
 
 ## Genéricos
 

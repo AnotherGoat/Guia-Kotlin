@@ -1,4 +1,4 @@
-# ?
+# 
 
 ## Código incompleto
 
@@ -8,4 +8,11 @@ Esta anotación se ha vuelto tan popular que [algunos IDES la resaltan con su pr
 
 Kotlin incluye la función `TODO()` para indicar elementos de código todavía no implementados.
 
+```kotlin
+fun generarToken(): String = TODO()
+```
+
+
+```kotlin
 fun calcTaxes(): BigDecimal = TODO("Waiting for feedback from accounting")
+```
