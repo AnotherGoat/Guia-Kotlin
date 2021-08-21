@@ -6,7 +6,7 @@ Cada variable tiene un tipo de dato, que define el tipo de información que cont
 
 ## Variables mutables
 
-A continuación se muestran algunos ejemplos de variables, declaradas con la palabra clave var.
+A continuación se muestran algunos ejemplos de variables, declaradas con la palabra clave `var`.
 
 ```kotlin
 var num = 100
@@ -30,7 +30,7 @@ var idioma: String = "Alemán"
 
 Las variables mutables pueden ser pasadas como argumentos a funciones y su valor se puede reasignar durante la ejecución del programa.
 
-Al momento de reasignar el valor de una variable no es necesario volver a utilizar la palabra var, ya que esta sólo se utiliza al momento de declararla.
+Al momento de reasignar el valor de una variable no es necesario volver a utilizar la palabra `var`, ya que esta sólo se utiliza al momento de declararla.
 
 ```kotlin
 fun main() {
@@ -76,4 +76,4 @@ El codigo anterior no se podrá ejecutar ya que el compilador detectará el erro
 Kotlin: Val cannot be reassigned
 ```
 
-Si se quiere almacenar un dato que puede variar durante la ejecución del programa, se debe usar la palabra var, en caso contrario, se recomienda usar val.
+Si se quiere almacenar un dato que puede variar durante la ejecución del programa, se debe usar la palabra var, en caso contrario, se recomienda usar `val`.

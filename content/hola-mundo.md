@@ -42,6 +42,7 @@ class HolaMundoKt {
 ```
 
 A diferencia de Java, Kotlin no requiere la creación de una clase contenedora del método `main()`, ya que la genera automáticamente durante la ejecución del programa.
+Tampoco requiere de los modificadores `public` y `static` ni de especificar el tipo de retorno `void` (el cual se convierte a `Unit` en Kotlin).
 
-Dicha clase tiene como nombre el mismo nombre del archivo .kt que contiene el código junto al sufijo `Kt`.
+La clase antes mencionada tiene como nombre el mismo nombre del archivo .kt que contiene el código junto al sufijo `Kt`.
 Por ejemplo, si el archivo se llama `HolaMundo.kt`, la clase generada se llama `HolaMundoKt`.

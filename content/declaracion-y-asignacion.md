@@ -24,7 +24,7 @@ Cabe destacar que es necesario indicarle el tipo también, para que Kotlin sepa 
 Por defecto, Kotlin no permitirá que se intente utilizar una variable que ha sido declarada pero no inicializada.
 
 ```kotlin
-    fun main() {
+fun main() {
     val x: Int
     println(x)
 }
@@ -40,7 +40,48 @@ Este comportamiento se puede cambiar, pero se verá a fondo más adelante.
 
 ## Asignación
 
-Después de declarar una variable,
+Después de declarar una variable, se le puede asignar un valor.
+Dicho valor debe ser un literal del tipo de dato esperado.
+
+```kotlin
+fun main(){
+    val pais: String
+    pais = "España"
+}
+```
 
 Como se vio antes, una variable puede ser declarada y asignada en una misma línea.
 En este caso no es obligatorio indicar su tipo de dato, ya que el compilador puede inferirlo por su cuenta.
+
+```kotlin
+val pais = "Francia"
+```
+
+Pero en caso de que se desee, se puede indicar su tipo explícitamente.
+Esto puede hacer que el código sea más claro para otros programadores.
+
+```kotlin
+val pais: String = "Francia"
+```
+
+## Métodos y constructores
+
+Además de literales, se puede utilizar un constructor para que Kotlin infiera el tipo de la variable automáticamente.
+
+```kotlin
+fun main() {
+    // Ambos son equivalentes
+    val random1 = Random()
+    val random2: Random = Random()
+}
+```
+
+También se puede inferir el tipo como el tipo de variable que retorna un método.
+
+```kotlin
+fun main() {
+    // Ambos son equivalentes
+    val arreglo1 = arrayOf(1, 2, 3)
+    val arreglo2: Array<Int> = arrayOf(1, 2, 3)
+}
+```

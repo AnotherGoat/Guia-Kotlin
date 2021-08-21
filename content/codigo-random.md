@@ -1,8 +1,6 @@
 # Código random
 
-```kotlin
-val line = readLine()!!
-```
+
 
 ```kotlin
 val name = readLine()

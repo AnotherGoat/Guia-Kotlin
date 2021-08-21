@@ -29,7 +29,7 @@ Un `Float` representa un número de precisión simple y un `Double` representa u
 
 ## Constantes de utilidad
 
-Las clases contenedoras de cada tipo de dato numérico básico contienen constantes estáticas que se pueden utilizar para acceder fácilmente los valores máximos y mínimos que puede almacenar cada uno.
+Las clases contenedoras de cada tipo de dato numérico básico contienen constantes estáticas que se pueden utilizar para acceder fácilmente los valores máximos (`MAX_VALUE`) y mínimos (`MIN_VALUE`) que puede almacenar cada uno.
 
 A continuación se muestran estas constantes:
 
@@ -43,9 +43,9 @@ fun main() {
     println(Short.MAX_VALUE)
     println(Short.MIN_VALUE)
 
-    println("Integer")
-    println(Integer.MAX_VALUE)
-    println(Integer.MIN_VALUE)
+    println("Int")
+    println(Int.MAX_VALUE)
+    println(Int.MIN_VALUE)
 
     println("Long")
     println(Long.MAX_VALUE)
@@ -61,7 +61,7 @@ fun main() {
 }
 ```
 
-El código anterior mostrará sus valores.
+El código anterior mostrará sus valores máximos y mínimos.
 
 ```text
 Byte
@@ -82,4 +82,18 @@ Float
 Double
 1.7976931348623157E308
 4.9E-324
-``
+```
+
+Otras constantes útiles son las que indican el tamaño que ocupa cada tipo numérico en bits.
+Estas constantes tienen el nombre `SIZE_BITS`.
+
+```kotlin
+fun main() {
+    println(Byte.SIZE_BITS) // 8
+    println(Short.SIZE_BITS) // 16
+    println(Int.SIZE_BITS) // 32
+    println(Long.SIZE_BITS) // 64
+    println(Float.SIZE_BITS) // 32
+    println(Double.SIZE_BITS) // 64
+}
+```

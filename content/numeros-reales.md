@@ -34,12 +34,18 @@ Infinity
 ## El tipo Float
 
 Un número `Float` representa un número de punto flotante de precision simple de 32 bits.
-Para utilizarlo, se debe escribir
+Para forzar un número decimal a Float tan solo basta con añadir la letra `f` o `F` al final.
 
+```kotlin
+println(0.25F)
+println(.5f)
+```
+
+Esto impedirá que el número sea almacenado como `Double`.
 
 ## Notación corta
 
-Al trabajar con números enteros, no es necesario escribir un 0 a la izquierda del punto decimal.
+Si el número decimal empieza con `0`, este se puede omitir.
 
 ```kotlin
 // Son equivalentes
@@ -52,6 +58,7 @@ Esta notación se asemeja a decir "punto cinco" en vez de "cero punto cinco".
 ## Precisión del punto flotante
 
 Se debe tener en cuenta que los computadores [no pueden almacenar perfectamente](http://puntoflotante.org/formats/fp/) el valor de números enteros, lo cual a menudo conduce a errores.
+
 El siguiente ejemplo da como resultado `0.30000000000000004` en vez de `0.3`.
 
 ```kotlin
