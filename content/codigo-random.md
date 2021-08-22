@@ -172,3 +172,37 @@ val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
 
 fun getPattern(): String = """\d{2} ${month} \d{4}"""
 ```
+
+```kotlin
+import java.util.Arrays
+
+fun main() {
+	var arreglo: Array<Int?> = arrayOfNulls(10)
+    
+    for (i in 0 until 10) {
+        arreglo[i] = i
+    }
+    
+    println(Arrays.deepToString(arreglo));
+}
+```
+
+```kotlin
+import java.util.Arrays
+
+fun main() {
+	var arreglo: Array<Int?> = arrayOfNulls(10)
+    
+    for (i in 0 until 10) {
+        arreglo[i] = i
+    }
+    
+    arreglo.forEach{print("$it, ")}
+}
+```
+
+```kotlin
+fun main() {
+    "Hola mundo".forEach{println(it)}
+}
+```

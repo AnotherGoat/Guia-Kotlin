@@ -31,6 +31,19 @@ val texto = readLine()!!
 println(texto)
 ```
 
+Se puede usar `readLine()` varias veces para tomar múltiples entradas del usuario.
+Al usar esta función, el flujo del programa se detendrá hasta que el usuario ingrese algún valor.
+
+```kotlin
+fun main() {
+    val nombre = readLine()!!
+    println("Has ingresado tu nombre")
+
+    val apellido = readLine()!!
+    println("Has ingresado tu apellido")
+}
+```
+
 Es muy común usar la entrada estándar en formularios e incluir mensajes para que el usuario sepa qué información se está pidiendo, por medio de la salida estándar.
 La función `print()` puede ser útil para darle un formato más adecuado.
 

@@ -34,14 +34,12 @@ Infinity
 ## El tipo Float
 
 Un número `Float` representa un número de punto flotante de precision simple de 32 bits.
-Para forzar un número decimal a Float tan solo basta con añadir la letra `f` o `F` al final.
+Para forzar un número decimal a `Float` en vez de `Double` tan solo basta con añadir la letra `f` o `F` al final.
 
 ```kotlin
 println(0.25F)
 println(.5f)
 ```
-
-Esto impedirá que el número sea almacenado como `Double`.
 
 ## Notación corta
 

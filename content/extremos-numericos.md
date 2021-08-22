@@ -11,10 +11,10 @@ Existen 4 tipos de datos enteros.
 
 |Tipo de dato|Tamaño (en bits)|Valor mínimo|Valor máximo|
 |-|-|-|-|
-|`Byte`|8|-128|127|
-|`Short`|16|-32 768|32767|
-|`Int`|32|-2 147 483 648 (-2³¹)|2 147 483 647 (2³¹- 1)|
-|`Long`|64|-9 223 372 036 854 775 808 (-2⁶³)|9 223 372 036 854 775 807 (2⁶³ - 1)|
+|`Byte`|8|-2⁷|2⁷ - 1|
+|`Short`|16|-2¹⁵|2¹⁵ - 1|
+|`Int`|32|-2³¹|2³¹- 1|
+|`Long`|64|-2⁶³|2⁶³ - 1|
 
 ## Tipos de punto flotante
 

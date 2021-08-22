@@ -12,6 +12,18 @@ La excepción a esta regla es si se rodea el nombre con acentos graves `` ` ``, 
 Y aún así, esta excepción tiene casos particulares de caracteres que no podrán ser escapados dependiendo del sistema operativo.
 Por ejemplo, la máquina virtual de Java (JVM) no permitirá que se escapen los siguientes caracteres: `.`, `(`, `)`, `[`, `]`, `{` y `}`.
 
+Koltin es sensible a mayúsculas y minúsculas, lo que significa que las variables `num`, `Num`, `NUM`, etc. son distintas.
+
+```kotlin
+val num = 3
+val Num = 5
+val NUM = 10
+
+println(NUM)
+println(num)
+println(Num)
+```
+
 ## Nombres largos
 
 Los nombres de variables que se componen de más de una palabra pueden ser difíciles de leer.

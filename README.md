@@ -12,8 +12,9 @@ Los ejemplos de código e ideas generales fueron obtenidas de las siguientes fue
 
 Y también de múltiples cursos en otras plataformas:
 
-- [Programiz](https://www.programiz.com/kotlin-programming)
+- [Baeldung](https://www.baeldung.com/kotlin/)
 - [W3Schools](https://www.w3schools.com/kotlin/)
+- [Programiz](https://www.programiz.com/kotlin-programming)
 - [SoloLearn](https://www.sololearn.com/learning/1160)
 - [FreeCodeCamp](https://www.youtube.com/watch?v=F9UC9DY-vIU)
 
@@ -39,8 +40,9 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Operaciones aritméticas](content/operaciones-aritmeticas.md)
 - [Orden de operaciones](content/orden-de-operaciones.md)
 - [**Jerarquía completa**](content/jerarquia-completa.md)
-- [**Operaciones entre enteros y reales**]
-- [Incremento y decremento]
+- [**Operaciones entre tipos distintos**](content/operaciones-entre-tipos-distintos.md)
+- [Operadores de asignación](content/operadores-de-asignacion.md)
+- [**Incremento y decremento**](content/incremento-y-decremento.md)
 
 ## Cadenas de caracteres
 
@@ -71,6 +73,7 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 
 - [Salida estándar](content/salida-estandar.md)
 - [**Entrada estándar**](content/entrada-estandar.md)
+- [Escáner de Java]
 
 ## Arreglos y listas
 
@@ -131,7 +134,7 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 
 ## Matemáticas
 
-- []
+- [**Aritmética modular**](content/aritmetica-modular.md)
 
 ## Interfaces
 
