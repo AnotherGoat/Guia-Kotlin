@@ -39,8 +39,8 @@ La salida estándar mostrará lo siguiente:
 La función `print()` no funcionará si se llama sin argumentos.
 
 Es importante notar que la salida estándar mostrará los resultados como texto.
-Esto significa que las comillas se eliminarán.
-En el siguiente ejemplo, todas las llamadas a `println()` mostrarán lo mismo.
+Esto significa que los elementos propios de los literales, como las comillas, se eliminarán.
+En el siguiente ejemplo, todas las llamadas a `println()` mostrarán lo mismo, a pesar de que se usan con un `Int`, un `Char` y un `String`.
 
 ```kotlin
 println(3)

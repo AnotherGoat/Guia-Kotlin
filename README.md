@@ -42,7 +42,7 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [**Jerarquía completa**](content/jerarquia-completa.md)
 - [**Operaciones entre tipos distintos**](content/operaciones-entre-tipos-distintos.md)
 - [Operadores de asignación](content/operadores-de-asignacion.md)
-- [**Incremento y decremento**](content/incremento-y-decremento.md)
+- [Incremento y decremento](content/incremento-y-decremento.md)
 
 ## Cadenas de caracteres
 
@@ -74,10 +74,15 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Salida estándar](content/salida-estandar.md)
 - [**Entrada estándar**](content/entrada-estandar.md)
 - [Escáner de Java]
+- [Argumentos por línea de comandos]
+- [Variables del entorno]
 
 ## Arreglos y listas
 
-- [**Creación de arreglos**](content/creacion-de-arreglos.md)
+- [Creación de arreglos](content/creacion-de-arreglos.md)
+- [Índices](content/indices.md)
+- [Arreglos vacíos](content/arreglos-vacios.md)
+- [**Operaciones con arreglos**](content/operaciones-con-arreglos.md)
 - [**Creación de listas**](content/creacion-de-listas.md)
 
 ## Bucles
@@ -91,12 +96,23 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 ## Funciones
 
 - [**Reutilización de código**](content/reutilizacion-de-codigo.md)
-- [**Funciones**](content/funciones.md)
+- [Funciones](content/funciones.md)
 - [Ámbito](content/ambito.md)
-- [**Parámetros y argumentos**](content/parametros-y-argumentos.md)
+- [Parámetros y argumentos](content/parametros-y-argumentos.md)
+- [**Retorno de valores**](content/retorno.md)
+- [**Argumentos variables**](content/argumentos-variables.md)
 - [**Sobrecarga de funciones**](content/sobrecarga-de-funciones.md)
 - [**Sobrecarga de operadores**](content/sobrecarga-de-operadores.md)
 - [**Funciones de extensión**](content/funciones-de-extension.md)
+
+## Clases
+
+- Programación orientada a objetos
+
+## Herencia
+
+- Herencia
+- Encapsulamiento
 
 ## Seguridad contra nulos
 
@@ -110,15 +126,6 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 ## Conversiones de tipos
 
 - [**Conversiones de tipos de datos**](content/conversion-de-tipos.md)
-
-## Clases
-
-- Programación orientada a objetos
-
-## Herencia
-
-- Herencia
-- Encapsulamiento
 
 ## Paquetes
 

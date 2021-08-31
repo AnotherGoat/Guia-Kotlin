@@ -1,6 +1,6 @@
 # Aritmética modular
 
-Esto ocurre en Python, se debe corregir.
+***Esto ocurre en Python, se debe corregir.
 
 En los ejemplos anteriores se debe asegurar que tanto el dividendo como el divisor sean positivos.
 Esto ocurre porque el operador `%` no sólo sirve para calcular el resto, ya que en realidad su función proviene de la [aritmética modular](https://es.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic).
