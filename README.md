@@ -74,6 +74,7 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Salida estándar](content/salida-estandar.md)
 - [**Entrada estándar**](content/entrada-estandar.md)
 - [Escáner de Java]
+- [**Entrada de arreglos**](content/entrada-de-arreglos.md)
 - [Argumentos por línea de comandos]
 - [Variables del entorno]
 
@@ -82,7 +83,7 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 - [Creación de arreglos](content/creacion-de-arreglos.md)
 - [Índices](content/indices.md)
 - [Arreglos vacíos](content/arreglos-vacios.md)
-- [**Operaciones con arreglos**](content/operaciones-con-arreglos.md)
+- [Operaciones con arreglos](content/operaciones-con-arreglos.md)
 - [**Creación de listas**](content/creacion-de-listas.md)
 
 ## Bucles
