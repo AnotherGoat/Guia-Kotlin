@@ -42,3 +42,12 @@ La siguiente tabla muestra los valores por defecto de cada constructor:
 |`CharArray()`|`` (Carácter vacío)|
 
 En general, los tipos numéricos toman el valor `0` y los otros tipos toman valores vacíos pero no nulos.
+
+## Arreglos genéricos vacíos
+
+Un arreglo de clase `Array` vacío se puede construir para llenar su contenido después, mediante el método `emptyArray()`.
+Para hacer esta operación es necesario especificar su tipo.
+
+```kotlin
+val arregloVacio = emptyArray<String>()
+```

@@ -79,34 +79,39 @@ false
 
 Esto ocurre porque en la primera comparación ambos identificadores apuntan a la misma instancia, mientras que en la segunda, cada uno apunta a una instancia distinta.
 
-## Conversión a String
+## Suma de arreglos
 
-Una forma de convertir un `Array` a `String` es utilizando el método `joinToString[]`.
+El operador `+` puede usarse para sumar los contenidos de 2 arreglos.
+
+```kotlin
+val cruzDelSur = arrayOf("Acrux", "Gacrux", "Imai", "Mimosa")
+val estrellas = arrayOf("Ginan", "Mu Crucis")
+
+val masEstrellas = cruzDelSur + estrellas
+```
+
+Esta operación también se puede realizar con arreglos de tipos primitivos.
 
 ```kotlin
 fun main() {
-    val resultados = booleanArrayOf(true, false, true)
-    println(resultados.joinToString())
+    val unoDosTres = intArrayOf(1, 2, 3)
+    val cuatroCincoSeis = intArrayOf(4, 5, 6)
+
+    val union = unoDosTres + cuatroCincoSeis
 }
 ```
 
-La salida se mostrará con el separador `, ` (una coma seguida de un espacio en blanco).
+## Añadir elementos
+
+Se le pueden añadir elementos a un arreglo vacío mediante el operador `+=`.
 
 ```kotlin
-true, false, true
+var paises = emptyArray<String>()
+
+paises += "Canadá"
+paises += "Finlandia"
+paises += "Egipto"
+paises += "Brasil"
 ```
 
-Alternativamente, se le puede entregar un separador personalizado.
-
-```kotlin
-fun main() {
-    val resultados = booleanArrayOf(true, false, true)
-    println(resultados.joinToString(" -- "))
-}
-```
-
-En este caso, el resultado se mostrará con el nuevo separador.
-
-```kotlin
-true -- false -- true
-```
+Esto no modifica el arreglo original, sino que crea una nueva instancia con el nuevo elemento y la asigna al identificador de variable para que este apunte al nuevo arreglo.

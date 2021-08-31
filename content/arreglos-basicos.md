@@ -1,4 +1,4 @@
-# Arreglos
+# Arreglos primitivos
 
 Los arreglos son la estructura de datos más básica y una de las más usadas en Kotlin.
 Son colecciones ordenadas posicionalmente de objetos del mismo tipo y son de tamaño fijo.
@@ -28,20 +28,6 @@ La siguiente tabla muestra las funciones que se deben usar para cada tipo de dat
 |`Char`|`charArrayOf()`|`CharArray`|
 
 Es importante notar que el tipo `StringArray` no existe, debido a que `String` no es un tipo primitivo.
-
-## Arreglos genéricos
-
-Los arreglos básicos sólo soportan tipos de datos primitivos, pero se permite usar el método `arrayOf` para crear arreglos con cualquier tipo de contenido.
-
-```kotlin
-import java.util.Random // Importado para mostrar arreglos de cualquier clase
-
-val animales = arrayOf("perro", "gato", "paloma")
-val randoms = arrayOf(Random(), Random(), Random())
-```
-
-Es importante notar que en este caso todos los arreglos se almacenan con el tipo `Array<T>`, mientras que el genérico `T` indica el tipo de dato que almacena.
-En el ejemplo anterior, `animales` es de tipo `Array<String>` y `randoms` es de tipo `Array<Random>`.
 
 ## Comas sobrantes
 

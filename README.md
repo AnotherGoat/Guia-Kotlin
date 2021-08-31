@@ -80,10 +80,13 @@ En caso de tener dudas sobre Kotlin, ¡no te olvides de revisar esas fuentes!
 
 ## Arreglos y listas
 
-- [Creación de arreglos](content/creacion-de-arreglos.md)
+- [Arreglos básicos](content/arreglos-basicos.md)
+- [Arreglos genéricos](content/arreglos-genericos.md)
 - [Índices](content/indices.md)
 - [Arreglos vacíos](content/arreglos-vacios.md)
+- [Arreglos multidimensionales](content/arreglos-multidimensionales.md)
 - [Operaciones con arreglos](content/operaciones-con-arreglos.md)
+- [**Funciones de arreglos**](content/funciones-de-arreglos.md)
 - [**Creación de listas**](content/creacion-de-listas.md)
 
 ## Bucles
